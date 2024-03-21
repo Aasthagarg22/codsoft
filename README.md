@@ -1,0 +1,1 @@
+code soft project contain three project one is calculator created its layout and designing using htmland css and javascript for function of the calculator another is landing page for health and fitness used html and css for this project and the last one kis portfolio which is also base on html and css .
