@@ -1,0 +1,181 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("background.jpg");
+    background-size:contain ;
+  }
+  h2{
+    color:red;
+   font-size:50px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header, footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  #about img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+  }
+  
+ 
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    max-width: 100%;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  p{
+    font-size:25px;
+    color:black;
+  }
+  #foot{
+    size:50px;
+    color:crimson
+  }
+  h1{
+    font-size: 65px;
+    color:darkorchid;
+  }
+  h4{
+    font-size: 25px;
+    color:rgb(19, 59, 24);
+  }
+  .bold
+  {
+    color:black;
+    font-size: 25px;
+  }
+  .bullet
+  {
+    color:darkmagenta;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+  }
+  .project img {
+    opacity: 0;
+    animation: fadeIn 10s forwards infinite;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  #skills li {
+    opacity: 0;
+    animation: fadeInListItems 3s forwards infinite;
+  }
+  
+  @keyframes fadeInListItems {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+/* Animation for h2 */
+h2 {
+  opacity: 0;
+  animation: fadeInH2 5s forwards infinite;
+}
+
+@keyframes fadeInH2 {
+  from {
+    opacity: 0;
+    transform: translateY(-20px); /* Slide in from top */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation for h3 */
+h3 {
+  opacity: 0;
+  animation: scaleInH3 10s forwards infinite;
+}
+
+@keyframes scaleInH3 {
+  from {
+    opacity: 0;
+    transform: scale(0.5); /* Scale from 50% */
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animation for h4 */
+h4 {
+  opacity: 0;
+  animation: rotateInH4 10s forwards infinite;
+}
+
+@keyframes rotateInH4 {
+  from {
+    opacity: 0;
+    transform: rotate(-180deg); /* Rotate from -180 degrees */
+  }
+  to {
+    opacity: 1;
+    transform: rotate(0);
+  }
+}
+
+  
+  
+  
